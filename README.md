@@ -12,7 +12,7 @@
 ## Installation
 
 **Requires:** Node.js, Python 2.7<br>
-`git clone https://github.com/boydlowr/subshot`
-`cd subshot`
-`bash install.sh`
-`node subshot.js example.com`
+`git clone https://github.com/boydlowr/subshot` <br>
+`cd subshot` <br>
+`bash install.sh` <br>
+`node subshot.js example.com` <br>
