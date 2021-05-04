@@ -117,9 +117,14 @@ async function start(domain) {
 }
 
 !function main(args) {
-	if(args.length <= 1) {
+	if(args.length <= 2) {
 		console.log("Domain not found.");
 		console.log("Expected: node subshot.js [domain-here]");
+		process.exit(1);
+	}
+
+	if(args[2] == '-h') {
+		console.log('Example command: node subshot.js google.com');
 		process.exit(1);
 	}
 
